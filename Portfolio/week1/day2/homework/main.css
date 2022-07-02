@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+}
+
+nav, header, main {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Mono', monospace;
+}
+
+nav {
+    background-color: black;
+    padding: 10px 0px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 15px;
+}
+
+#griotcard {
+    display: flex;
+    font-size: xx-large;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+#nav-links {
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+}
+
+header {
+    color: white;
+    background-image: url(theater-image-background.png);
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    padding: 300px;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#blank-space {
+    padding: 50px;
+}
+
+
+.dates {
+    align-items: flex-start;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightgray;
+}
+
+.dates h3 {
+    padding-left: 30px;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.posts #raisin {
+    justify-content: flex-start;
+}
+
+.posts #post-text {
+    padding: 0px 40px;
+    align-self: center;
+}
+
+button {
+    color: white;
+    background-color: gold;
+    border: 1px solid black;
+    height: 70px;
+    width: 150px;
+    font-size: x-large;
+}
+
+#button {
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
